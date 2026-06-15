@@ -20,7 +20,12 @@ dist/
 .idea/
 .vscode/
 
-# Local tooling (not required to build the app)
-.cursor/
-.skrepka/
-.impeccable/
+# All dot-directories and dot-files — local only, never push
+.*
+!.gitignore
+
+# Internal docs — local only
+docs/
+doc/
+PRODUCT.md
+DESIGN.md

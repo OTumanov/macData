@@ -80,9 +80,7 @@ make test
 ```
 Sources/MacDataCalendar/   — приложение (SwiftUI)
 Tests/                     — unit-тесты
-Scripts/build-app.sh       — release-сборка .app + codesign
-docs/superpowers/specs/    — design specs
-PRODUCT.md · DESIGN.md     — продукт и визуальные токены
+Scripts/                   — сборка .app и release zip
 ```
 
 ## Что сознательно не входит
