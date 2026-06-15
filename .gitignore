@@ -1,0 +1,26 @@
+# Swift / SPM
+.build/
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+DerivedData/
+
+# App bundle (build locally or download from Releases)
+build/
+dist/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor
+*.swp
+*~
+.idea/
+.vscode/
+
+# Local tooling (not required to build the app)
+.cursor/
+.skrepka/
+.impeccable/
